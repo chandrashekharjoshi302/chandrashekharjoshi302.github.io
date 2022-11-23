@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.home_Container {
+  padding: 50px 0px 0px 50px;
+}
+
+.home_Container_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 130px 0 180px 0;
+}
+
+.home_box_img {
+  height: 300px;
+  width: 260px;
+
+  cursor: pointer;
+}
+.home_box_img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 35%;
+
+}
+
+/* ------------------------ Home text--------------------------- */
+
+.home_box_content h5 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.home_box_content h2 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.full {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+}
+
+.home_box_content p {
+  margin-top: -20px;
+  font-weight: 700;
+}
+.home_box_content span {
+  font-weight: 700;
+  color: #e4002b;
+  margin: 0 0 20px 5px;
+}
+.home_box_content button {
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #e4002b;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.home_box_content button:hover {
+  background-color: #fff;
+  color: #e4002b;
+  border: 2px solid #e4002b;
+  transition: 0.3s ease;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.home_box_ul {
+  position: fixed;
+  bottom: 30px;
+  left: 10px;
+}
+.header_ul li {
+  background-color: #e4002b;
+  color: #fff;
+  margin-bottom: 5px;
+  padding: 6px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.header_ul li:hover {
+  border: 2px solid #e4002b;
+  background-color: #fff;
+  color: #e4002b;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.home_up_arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  color: #fff;
+  background-color: #e4002b;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 700;
+}
+.home_up_arrow:hover {
+  border: 1px solid #e4002b;
+  color: #e4002b;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+html {
+  transition: 0.6s ease;
+}
+
+/* =========================Responsive For Tablet ========================================= */
+.home_Container_tablet {
+  padding: 80px 0px;
+}
+
+.full_tablet {
+  display: flex;
+  align-items: center;
+}
+
+.home_Container_box_tablet p {
+  margin-top: -20px;
+  font-weight: 700;
+}
+.home_Container_box_tablet span {
+  font-weight: 700;
+  color: #e4002b;
+  margin: 0 0 0px 5px;
+}
+
+.home_Container_box_tablet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0 150px 0;
+}
+
+.home_box_img_tablet {
+  height: 300px;
+  width: 260px;
+  cursor: pointer;
+  margin: -40px 0;
+}
+.home_box_img_tablet img {
+  height: 100%;
+  width: 100%;
+  border-radius: 35%;
+}
+
+/* ------------------------ Home text For tablet --------------------------- */
+
+.home_box_content_tablet h5 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.home_box_content_tablet h2 {
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.home_box_content_tablet p {
+  margin-top: -20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.home_box_content_tablet span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #e4002b;
+  margin: 0 0 15px 5px;
+}
+.home_box_content_tablet button {
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #e4002b;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.home_box_content_tablet button:hover {
+  background-color: #fff;
+  color: #e4002b;
+  border: 2px solid #e4002b;
+  transition: 0.3s ease;
+}
+
+/* =========================Responsive For mobile ========================================= */
+.home_Container_mobile {
+  padding: 120px 0px 70px 0;
+}
+
+.home_Container_box_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0 30px 0;
+}
+
+.home_box_img_mobile {
+  height: 300px;
+  width: 280px;
+  cursor: pointer;
+}
+.home_box_img_mobile img {
+  height: 100%;
+  width: 100%;
+  border-radius: 40%;
+}
+
+/* ------------------------ Home text For Mobile --------------------------- */
+.home_box_content_mobile {
+  margin: 40px 0 0 20px;
+}
+
+.home_box_content_mobile h5 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.home_box_content_mobile h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.full_phone {
+  display: flex;
+  align-items: center;
+}
+
+.home_box_content_mobile p {
+  font-size: 23px;
+  font-weight: 700;
+}
+.home_box_content_mobile span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e4002b;
+  margin-left: 5px;
+}
+.home_box_content_mobile button {
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #e4002b;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.home_box_content_mobile button:hover {
+  background-color: #fff;
+  color: #e4002b;
+  border: 2px solid #e4002b;
+  transition: 0.3s ease;
+}

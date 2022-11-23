@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar_container {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_left_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.navbar_left_logo h2 {
+  font-weight: 800;
+  font-size: 33px;
+}
+.navbar_left_logo span {
+  color: #e4002b;
+}
+
+.navbar_right {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.navbar_right li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 0 15px;
+}
+
+.navbar_right a:hover {
+  background-color: #e4002b;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+/* -------------------------Tablet------------------------------------------- */
+
+.Ultablet {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.Ultablet li {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.Ultablet li:hover {
+  cursor: pointer;
+  height: 80px;
+  width: 100%;
+  background-color: #96bae9;
+}
