@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.7a0ae5af.css",
-    "main.js": "/static/js/main.1ddfe654.js",
+    "main.js": "/static/js/main.2a48f95f.js",
     "static/media/fp.png": "/static/media/fp.affa010585f4a907d8d4.png",
     "static/media/Appletv.png": "/static/media/Appletv.77aca0e99831b5f27fe6.png",
     "static/media/Bathbody.png": "/static/media/Bathbody.d05746efcc5380fb0025.png",
     "static/media/youtubereact.png": "/static/media/youtubereact.b64724021ea02f5ef274.png",
     "static/media/profiles.png": "/static/media/profiles.c880a652272bafc5fe1c.png",
     "static/media/nykaa.png": "/static/media/nykaa.d86995ea7a13d5e29b80.png",
-    "static/media/Chandrashekhar_joshi_Resume.pdf": "/static/media/Chandrashekhar_joshi_Resume.52d5f24182d661a8510e.pdf",
+    "static/media/Chandrashekhar_joshi_Resume.pdf": "/static/media/Chandrashekhar_joshi_Resume.89107cfd319607f4e358.pdf",
     "static/media/creativity1.png": "/static/media/creativity1.445675a0a00c2757a1d6.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/home1.png": "/static/media/home1.950389c39e376b3b075d.png",
@@ -31,10 +31,10 @@
     "static/media/netlify.svg": "/static/media/netlify.74896431af95f4ab7d84bc511bbe7126.svg",
     "index.html": "/index.html",
     "main.7a0ae5af.css.map": "/static/css/main.7a0ae5af.css.map",
-    "main.1ddfe654.js.map": "/static/js/main.1ddfe654.js.map"
+    "main.2a48f95f.js.map": "/static/js/main.2a48f95f.js.map"
   },
   "entrypoints": [
     "static/css/main.7a0ae5af.css",
-    "static/js/main.1ddfe654.js"
+    "static/js/main.2a48f95f.js"
   ]
 }
