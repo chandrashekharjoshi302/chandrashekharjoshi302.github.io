@@ -3,7 +3,12 @@ import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import "./Projects.css";
 import Youtube from "../Images/youtubereact.png";
 import Time from "../Images/home1.png";
-import food from "../Images/fhome.png"
+import Everhour from '../Images/everhour.png'
+import nykaa from "../Images/nykaa.png";
+import food from '../Images/fp.png';
+import Apple from '../Images/Appletv.png';
+import Bathbody from '../Images/Bathbody.png';
+
 import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
@@ -32,7 +37,7 @@ export const Projects = () => {
                 </div>
 
                 <div className="project_name">
-                  <h2>food App</h2>
+                  <h2>Food App</h2>
                 </div>
                 <div className="project_desc">
                   <p>
@@ -51,7 +56,7 @@ export const Projects = () => {
                 <div className="project_icon">
                   <div className="github_link">
                     <a
-                      href="https://github.com/singhprakash14/FoodApp"
+                      href="https://github.com/chandrashekharjoshi302/Food_App"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -60,7 +65,7 @@ export const Projects = () => {
                   </div>
                   <div className="deploy_link">
                     <a
-                      href="https://taupe-melomakarona-0dfddf.netlify.app"
+                      href="https://resonant-tiramisu-70427f.netlify.app/index.html"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -74,11 +79,11 @@ export const Projects = () => {
             <Box>
               <div className="project_box">
                 <div className="project_image">
-                  <img src={Time} alt="clockify" />
+                  <img src={Everhour} alt="clockify" />
                 </div>
 
                 <div className="project_name">
-                  <h2>TimeCamp (Group-Project)</h2>
+                  <h2>Everhour (Group-Project)</h2>
                 </div>
                 <div className="project_desc">
                   <p>
@@ -87,14 +92,14 @@ export const Projects = () => {
                 </div>
                 <div className="project_tech_stack">
                   <h5>
-                    <span>Tech Stack :</span> Html , JavaScript, CSS,
+                    <span>Tech Stack :</span> Html , JavaScript, CSS, React,
                     Bootstrap-5.
                   </h5>
                 </div>
                 <div className="project_icon">
                   <div className="github_link">
                     <a
-                      href="https://github.com/singhprakash14/husky-care-7787"
+                      href="https://github.com/chandrashekharjoshi302/hot-caption-4153"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -103,7 +108,48 @@ export const Projects = () => {
                   </div>
                   <div className="deploy_link">
                     <a
-                      href="https://astonishing-sorbet-368da1.netlify.app"
+                      href="https://boisterous-monstera-ea0196.netlify.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+            <Box>
+              <div className="project_box">
+                <div className="project_image">
+                  <img src={nykaa} alt="clockify" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Nykaa (Group-Project)</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                  Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> react-js, axios , Boostrap, API, Charaka-UI
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/chandrashekharjoshi302/amazing-pocket-7061"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://63ada1475ad13e35586e0a54--ornate-cupcake-fb26b5.netlify.app/"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -135,7 +181,7 @@ export const Projects = () => {
                 <div className="project_icon">
                   <div className="github_link">
                     <a
-                      href="https://github.com/singhprakash14/Youtube-clone-react/tree/main/project_youtube_clone-main'"
+                      href="https://github.com/chandrashekharjoshi302/project_youtube_clone"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -144,7 +190,7 @@ export const Projects = () => {
                   </div>
                   <div className="deploy_link">
                     <a
-                      href="https://isnt-singhprakash14-awesome.netlify.app"
+                      href="https://isnt-bike97867-awesome.netlify.app/"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -157,26 +203,27 @@ export const Projects = () => {
             <Box>
               <div className="project_box">
                 <div className="project_image">
-                  <img src={Youtube} alt="clockify" />
+                  <img src={Bathbody} alt="clockify" />
                 </div>
 
                 <div className="project_name">
-                  <h2>Youtube-clone</h2>
+                  <h2>BathBodyWorks</h2>
                 </div>
                 <div className="project_desc">
                   <p>
-                  Youtube-clone in react using the Api which provides data and its fully Responsive website.
+                  BathBodyWorks is a retail store chain which came in E-commerce business to sell their products.
                   </p>
                 </div>
                 <div className="project_tech_stack">
                   <h5>
-                    <span>Tech Stack :</span> react-js, axios , Boostrap
+                    <span>Tech Stack :</span> Html , JavaScript, CSS, React,
+                    Bootstrap-5.
                   </h5>
                 </div>
                 <div className="project_icon">
                   <div className="github_link">
                     <a
-                      href="https://github.com/singhprakash14/Youtube-clone-react/tree/main/project_youtube_clone-main'"
+                      href="https://github.com/chandrashekharjoshi302/Bath-BodyWorks"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -185,7 +232,49 @@ export const Projects = () => {
                   </div>
                   <div className="deploy_link">
                     <a
-                      href="https://isnt-singhprakash14-awesome.netlify.app"
+                      href="https://63b4fed9da28e9102de77106--venerable-meringue-87568a.netlify.app"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+            <Box>
+              <div className="project_box">
+                <div className="project_image">
+                  <img src={Apple} alt="clockify" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Apple Tv+</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                  Apple Tv
+Apple TV is a digital media player and microconsole developed and marketed by Apple Inc.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> Html , JavaScript, CSS, Boostrap , API
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/chandrashekharjoshi302/internal-mark-2946"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://tangerine-speculoos-c19c29.netlify.app/"
                       rel="noopener norefferer"
                       target="_blank"
                     >

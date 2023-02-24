@@ -18,10 +18,10 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_5h90sgm",
-        "template_u1tdmba",
+        "service_pmlzo5g",
+        "template_r0gdfps",
         form.current,
-        "hXcQ_GBwksMfhF8mb"
+        "iRZ3G4ogh9e8rrDXX"
       )
       .then(
         (result) => {
@@ -151,6 +151,7 @@ export const Contact = () => {
                         required={true}
                         className="input_tag"
                         type="number"
+                        name="number"
                         placeholder="Number"
                       />
                     </div>
@@ -158,6 +159,7 @@ export const Contact = () => {
                       <textarea
                         required={true}
                         name="message"
+                        
                         className="input_tag_text_message"
                         type="text"
                         placeholder="Your Message"

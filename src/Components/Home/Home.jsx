@@ -46,7 +46,7 @@ export const Home = () => {
             <Box height="auto">
               <div className="home_Container_box">
                 <div className="home_box_content">
-                  <h5>Hello, my name is</h5>
+                  <h5>Hello, My name is</h5>
                   <h2>Chandrashekhar Joshi</h2>
 
                   <div className="full">

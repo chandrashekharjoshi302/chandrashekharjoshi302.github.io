@@ -38,7 +38,7 @@ export const Stars = () => {
           </div>
           <div className="box1">
             <a href="https://github.com/chandrashekharjoshi302">
-              <img src="https://github-readme-streak-stats.herokuapp.com?user=singhprakash14&theme=github-light&border_radius=5" />
+              <img src="https://github-readme-streak-stats.herokuapp.com?user=chandrashekharjoshi302&theme=github-light&border_radius=5" />
             </a>
           </div>
           <div className="box2">
@@ -70,7 +70,7 @@ export const Stars = () => {
           <div className="box2">
             <SimpleGrid columns={[1, 1, 1, 1]}>
               <Box>
-                <a href="https://github.com/singhprakash14">
+                <a href="https://github.com/chandrashekharjoshi302">
                   <img
                     align="center"
                     src="https://github-readme-stats.vercel.app/api?username=chandrashekharjoshi302&count_private=true&show_icons=true"

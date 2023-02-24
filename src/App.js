@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Home />
+      <Home />
       <About />
       <Projects />
       <Skills />
@@ -21,7 +21,7 @@ function App() {
       <Github />
       <Stars />
       <Contact />
-       */}
+      
     </div>
   );
 }

@@ -148,10 +148,7 @@ export const Navbar = () => {
                         }}
                       >
                         <DrawerCloseButton fontSize="30px" />
-                        {/* <DrawerHeader textAlign="center" fontSize="50px">
-                          Sonu Prasad
-                        </DrawerHeader> */}
-
+                        
                         <DrawerBody textAlign="center">
                           <ul className="Ultablet">
                             <li onClick={onClose}>
@@ -245,9 +242,7 @@ export const Navbar = () => {
                         }}
                       >
                         <DrawerCloseButton fontSize="30px" />
-                        {/* <DrawerHeader textAlign="center" fontSize="50px">
-                          Sonu Prasad
-                        </DrawerHeader> */}
+                        
 
                         <DrawerBody textAlign="center">
                           <ul className="Ultablet">
