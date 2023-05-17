@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.7a0ae5af.css",
-    "main.js": "/static/js/main.4d248b5a.js",
+    "main.js": "/static/js/main.da9ba480.js",
     "static/media/fp.png": "/static/media/fp.affa010585f4a907d8d4.png",
     "static/media/Appletv.png": "/static/media/Appletv.77aca0e99831b5f27fe6.png",
     "static/media/Bathbody.png": "/static/media/Bathbody.d05746efcc5380fb0025.png",
     "static/media/youtubereact.png": "/static/media/youtubereact.b64724021ea02f5ef274.png",
+    "static/media/profiles.png": "/static/media/profiles.c880a652272bafc5fe1c.png",
     "static/media/nykaa.png": "/static/media/nykaa.d86995ea7a13d5e29b80.png",
     "static/media/Chandrashekhar_joshi_Resume.pdf": "/static/media/Chandrashekhar_joshi_Resume.1947f8df31f548a256fc.pdf",
     "static/media/creativity1.png": "/static/media/creativity1.445675a0a00c2757a1d6.png",
@@ -15,7 +16,6 @@
     "static/media/dsa.png": "/static/media/dsa.77509298a343d123a7bd.png",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
     "static/media/everhour.png": "/static/media/everhour.1af28e5b587992e3af6b.png",
-    "static/media/profiles.png": "/static/media/profiles.2028945f948667e1b342.png",
     "static/media/projectManagement.png": "/static/media/projectManagement.56532bbb9da241b0f1c8.png",
     "static/media/backend.png": "/static/media/backend.cd86763da06f05c86ca6.png",
     "static/media/problemSolv.png": "/static/media/problemSolv.ddf49384f01d0b6de6c0.png",
@@ -31,10 +31,10 @@
     "static/media/netlify.svg": "/static/media/netlify.74896431af95f4ab7d84bc511bbe7126.svg",
     "index.html": "/index.html",
     "main.7a0ae5af.css.map": "/static/css/main.7a0ae5af.css.map",
-    "main.4d248b5a.js.map": "/static/js/main.4d248b5a.js.map"
+    "main.da9ba480.js.map": "/static/js/main.da9ba480.js.map"
   },
   "entrypoints": [
     "static/css/main.7a0ae5af.css",
-    "static/js/main.4d248b5a.js"
+    "static/js/main.da9ba480.js"
   ]
 }
